@@ -1,0 +1,42 @@
+.ivu-menu-vertical .ivu-menu-item,
+.ivu-menu-vertical .ivu-menu-submenu-title {
+    padding: 14px;
+}
+
+.ivu-btn:focus {
+    box-shadow: none;
+}
+
+/*滚动条样式*/
+
+div::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 8px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 12px;
+    float: right;
+}
+
+div::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 5px !important;
+    background: rgba(151, 168, 190, .3) !important;
+}
+
+div::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    border-radius: 0;
+}
+
+div {
+    /*三角箭头的颜色*/
+    scrollbar-arrow-color: #d4dbe6;
+    /*滚动条滑块按钮的颜色*/
+    scrollbar-face-color: #d4dbe6;
+    /*滚动条整体颜色*/
+    scrollbar-highlight-color: #d4dbe6;
+    /*滚动条阴影*/
+    scrollbar-shadow-color: #fff;
+    /*滚动条轨道颜色*/
+    scrollbar-track-color: #fff;
+}
