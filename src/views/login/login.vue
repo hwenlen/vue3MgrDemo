@@ -54,7 +54,6 @@ const handleSubmit = () => {
   loginForm.value.validate((valid: Boolean) => {
     if (valid) {
       userStore.handleLogin(formData).then(() => {
-        console.log(1111)
         localStorage.setItem('userId', '123')
         router.push({
           name: 'home'
