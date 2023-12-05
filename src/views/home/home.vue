@@ -8,7 +8,7 @@
        <div class="dealt-wrap">
          <div class="dealt-top">
            <div class="icon-box">
-             <img src="../../../assets/images/dealt.png"/>
+             <img src="../../assets/images/dealt.png"/>
            </div>
            <h3>待办事项</h3>
          </div>
